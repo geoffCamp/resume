@@ -52,6 +52,7 @@ h2 {
     display: flex;
     flex-direction: row; 
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .section h2 {
@@ -60,7 +61,7 @@ h2 {
     margin-right: 10px;
 }
 
-#content {
+.content {
     width: 80%
 }
 
@@ -81,6 +82,8 @@ h2 {
     margin-top:0px;
 }
 
+/* Education */
+
 .sectionTitle {
     color: #444444;
     font-size: 22px;
@@ -96,6 +99,8 @@ h2 {
     color: #666666;
 }
 
+/* Experience */
+
 .expPos {
     font-size: 18px;
     margin: 5px 0px;
@@ -103,4 +108,24 @@ h2 {
 
 .expDesc {
     margin-top: 5px;
+}
+
+/* projects */
+
+#personalProjects ul {
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+#personalProjects li {
+    margin-bottom: 10px;
+}
+
+.projTitle {
+    color: #555555;
+    font-size: 19px;   
+}
+
+.projDesc {
+   margin-top: 5px;
 }
